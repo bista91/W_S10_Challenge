@@ -43,7 +43,7 @@ This endpoint allows you to GET the list of past orders from the server.
 This endpoint allows you to POST a new pizza order. Here is an example of a valid request payload:
 
 ```json
-{ "fullName": "Jane Doe", "size": "L", "toppings": ["1","2","3","4","5"] }
+{ "fullName": "Jane Doe", "size": "L", "toppings": ["1", "2", "3", "4", "5"] }
 ```
 
 - `fullName` is required and must have min length of 3 chars, and max length of 20 chars.
